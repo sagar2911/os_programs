@@ -5,8 +5,7 @@ p=1300
 r=10 
 t=2
 
-s=`expr $p \* $r \* $t`
-s=`expr $s / 100`
+s=`expr $p \* $r \* $t / 100`
 
 echo "Priciple is Rs."$p
 echo "Rate is "$p"%"
